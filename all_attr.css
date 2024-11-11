@@ -1,0 +1,71 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+a {
+  text-decoration: none;
+}
+
+li {
+  list-style: none;
+}
+
+.main__container {
+  max-width: 130vh;
+  width: 100%;
+  height: 170vh;
+  margin: auto;
+  background-color: #e6e6e6;
+  border-radius: 30px;
+}
+.main .header__container {
+  margin-bottom: 50px;
+  margin-top: 10px;
+}
+.main .header__container input {
+  margin: 40px 0 0 60px;
+  border: none;
+  border-radius: 30px;
+  outline: none;
+  padding: 5px;
+}
+.main .header__container button {
+  border: none;
+  padding: 5px;
+  border-radius: 10px;
+  margin-left: 20px;
+  width: 100px;
+  cursor: pointer;
+}
+.main__row {
+  display: flex;
+  margin: 20px 55px;
+  gap: 6vh;
+}
+.main__img {
+  max-width: 25vh;
+  width: 100%;
+  height: 16vh;
+}
+.main__img :hover {
+  transform: scale(0.9);
+}
+.main__img img {
+  max-width: 25vh;
+  width: 100%;
+  height: 16vh;
+}
+.main__subtitle {
+  font-family: Protest Strike;
+  margin-bottom: 2px;
+}
+.main__title {
+  font-family: Protest Strike;
+  margin-left: 5vh;
+  font-size: 35px;
+}
+.main__card {
+  cursor: pointer;
+}

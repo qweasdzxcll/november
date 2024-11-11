@@ -1,0 +1,62 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    background-color: black;
+}
+
+a {
+    text-decoration: none;
+}
+
+li {
+    list-style: none;
+}
+
+.header {
+    &__search {
+        max-width: 500px;
+    }
+}
+
+.main {
+    &__container {
+        margin: 130px 0 0 480px;
+        background-color: #e6e6e6;
+        width: 90vh;
+        height: 70vh;
+        text-align: center;
+    }
+    &__title {
+        font-family: Protest Strike;
+        font-size: 30px;
+        color: rgb(0, 0, 0);
+        text-shadow: 10px 4px 4px rgba(0, 0, 0, 0.219)
+    }
+    &__img1 {
+        display: flex;
+        height: 200px;
+        margin-top: 50px;
+        margin-left: 10px;
+        max-width: 450px;
+        width: 100%;
+    }
+    &__row {
+        position: relative;
+        display: flex;
+        gap: 20px;
+    }
+    &__row1 {
+        margin-top: 30px;
+        gap: 100px;
+    }
+    &__row2 {
+        margin-top: 50px;
+        margin-left: 35px;
+        gap: 40px;
+    }
+
+}
